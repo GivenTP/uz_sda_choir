@@ -1,0 +1,71 @@
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_category_one_title"
+        android:key="pref_category_settings">
+        <CheckBoxPreference
+            android:theme="@style/checkBoxStyle"
+            android:defaultValue="false"
+            android:key="day_night_check"
+            android:summary="@string/pref_description_day_night_mode"
+            android:title="@string/day_night_mode"
+            />
+
+        <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+        <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+        <!--<com.gtptechnologies.uzsdachoir.EditTextPreference
+            android:capitalize="words"
+            android:defaultValue="@string/pref_default_display_name"
+            android:inputType="textCapWords"
+            android:key="example_text"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/pref_title_display_name"
+            android:summary="@string/pref_default_display_name"
+             />-->
+
+        <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+             dismiss it. -->
+        <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+        <!--<ListPreference
+            android:key="example_list"
+            android:title="@string/font_size"
+            android:summary="%s"
+            android:defaultValue="Normal"
+            android:entries="@array/font_sizes"
+            android:entryValues="@array/font_sizes"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            />-->
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_two_title"
+        android:key="pref_category_settings1">
+        <Preference android:title="@string/build_version"
+            android:summary="@string/the_build_version">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://www.facebook.com/given.pfunguro" />
+        </Preference>
+        <Preference android:title="@string/developer"
+            android:summary="@string/the_developer">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="https://www.facebook.com/given.pfunguro" />
+        </Preference>
+        <Preference android:title="@string/donate"
+            android:summary="@string/the_donate">
+            <intent android:targetPackage="com.gtptechnologies.uzsdachoir"
+                android:targetClass="com.gtptechnologies.uzsdachoir.Donate"/>
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_category_three_title"
+        android:key="pref_category_settings2">
+        <Preference android:title="@string/restore"
+            android:defaultValue="@string/the_restore"
+            android:summary="@string/the_restore">
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <!-- Base application theme. values-night.xml -->
+        <style name="AppTheme" parent="Theme.AppCompat.DayNight">
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/primary_dark</item>
+            <item name="colorPrimaryDark">@color/primary_dark</item>
+            <item name="colorAccent">@color/white</item>
+            <!--<item name="android:textColorPrimary">@android:color/white</item>-->
+
+            <item name="android:windowBackground">@color/black</item>
+            <item name="android:textColor">@color/white</item>
+            <item name="android:textColorPrimary">@color/white</item>
+            <item name="android:textColorSecondary">@color/white</item>
+
+        </style>
+
+    <style name="PreferenceScreen" parent="AppTheme">
+        <item name="android:textColor">@color/yellow</item>
+
+    </style>
+
+        <style name="MyDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert"/>
+
+        <style name="MySwitch">
+            <item name="colorControlActivated">@color/white</item>
+        </style>
+
+    <style name="AppTheme.CheckBoxPreference">
+        <item name="colorControlNormal">@color/primary</item>
+    </style>
+</resources>

@@ -1,0 +1,39 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:id="@+id/frameLayout">
+
+    <android.support.v4.view.ViewPager
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+        <android.support.v4.view.PagerTitleStrip
+        android:id="@+id/pager_title_strip"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#d3d0ff"
+        android:background="@color/primary"
+        />
+
+  </android.support.v4.view.ViewPager>
+
+    <ImageButton
+        android:layout_margin="15dp"
+        android:layout_width="71dp"
+        android:layout_height="71dp"
+        android:background="@drawable/circle"
+        android:src="@drawable/ic_dialpad_white_18dp"
+        android:id="@+id/imageButton"
+        android:layout_gravity="right|bottom" />
+
+</FrameLayout>

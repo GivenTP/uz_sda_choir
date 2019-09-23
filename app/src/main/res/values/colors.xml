@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#392ec4</color>
+    <color name="primary_dark">#263196</color>
+    <!--<color name="primary_dark">#394cf4</color>-->
+    <color name="text_primary">#fefffd</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textColorPrimary">#000000</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="white">#ffffff</color>
+    <color name="brown">#010101</color>
+    <color name="dial">#010101</color>
+    <color name="lightblue">#2f2bf4</color>
+
+</resources>

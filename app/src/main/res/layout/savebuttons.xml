@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="    Confirm Save changes?"
+        android:textSize="18dp"
+        android:textColor="@color/brown"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/cancelbutton"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/save"
+        android:layout_centerHorizontal="true"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/savebutton"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/save"
+        android:layout_marginEnd="37dp"
+        android:text="Save"
+        android:onClick="saveData"/>
+</RelativeLayout>

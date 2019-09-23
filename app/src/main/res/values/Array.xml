@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <string-array name="hymns">
+        <item>1. Gwayana</item>
+        <item>2. Jesus Is The Bread</item>
+        <item>3. Sanctuary</item>
+        <item>4. Sweetest Song</item>
+        <item>5. The Loud Cry</item>
+        <item>6. Apo Tofamba</item>
+        <item>7. fairest</item>
+        <item>8. Sunny Smile</item>
+        <item>9. God is love</item>
+        <item>10. God is not man</item>
+        <item>11. Ngif’k ekhaya</item>
+        <item>12. There is no sermon</item>
+        <item>13. Jehovha Mufudzi</item>
+        <item>14. Last Night</item>
+        <item>15. Lord in us awake</item>
+        <item>16. Semazuva a Noah</item>
+        <item>17. The Greatest Want</item>
+        <item>18. Between The Plough</item>
+        <item>19. Magnify and glorify</item>
+        </string-array>
+
+    <string-array name="pics">
+        <item>@drawable/number1_1</item>
+        <item>@drawable/number2_1</item>
+        <item>@drawable/number3_1_1</item>
+        <item>@drawable/number4_1</item>
+        <item>@drawable/number5_1</item>
+        <item>@drawable/number6_1</item>
+        <item>@drawable/number7_1</item>
+        <item>@drawable/number8_1</item>
+        <item>@drawable/number9_1_2</item>
+        <item>@drawable/number10_1</item>
+        <item>@drawable/number_11_1</item>
+        <item>@drawable/number_12_red_1</item>
+        <item>@drawable/num013</item>
+        <item>@drawable/num14</item>
+        <item>@drawable/num15</item>
+        <item>@drawable/number16_1</item>
+        <item>@drawable/num17</item>
+        <item>@drawable/number18_1</item>
+        <item>@drawable/num19</item>
+    </string-array>
+
+    <string-array name="author">
+        <item>Daniel Mutangadura</item>
+        <item>Daniel Mutangadura</item>
+        <item>Daniel Mutangadura</item>
+        <item>Albert E. Brumley</item>
+        <item>Daniel Mutangadura</item>
+        <item>.....</item>
+        <item>.....</item>
+        <item>.....</item>
+        <item>Daniel Mutangadura</item>
+        <item>Nyasha Moyo and Daniel Mutangadura</item>
+        <item>.....</item>
+        <item>Daniel Mutangadura</item>
+        <item>.....</item>
+        <item>Ray Overholt</item>
+        <item>Munashe Matambo</item>
+        <item>Daniel Mutangadura</item>
+        <item>Daniel Mutangadura</item>
+        <item>Daniel Mutangadura</item>
+        <item>Robert Adams</item>
+    </string-array>
+    
+    <string-array name="hymnWords">
+        <item>&lt;br>&lt;b>1.&lt;/b>&lt;br> Pakava nokusuwa, nziyo ndokumira,&lt;br>
+            Apo munhu avamurima rechivi,&lt;br>
+            (Ndiyani) Pasi totarisa (Mubatsiri)&lt;br> Makungwa ngirozi,&lt;br>
+            Ndiyani muponesi angadzikinura munhu.&lt;br>
+            &lt;br>
+            &lt;b>&lt;u>CHORUS&lt;/u>&lt;/b>
+            &lt;br>
+            &lt;i>
+            Gwayana raMwari rinobvisa zvivi,&lt;br>
+            NdiShe Jesu mubatsiri, mununuri wedu,&lt;br>
+            Samasimba, munyaradzi,&lt;br>
+            Makafanira mbiri.&lt;br>
+            &lt;/i>
+            &lt;br>
+            &lt;b>2.&lt;/b>&lt;br> Zano roruponeso nyika isati yasikwa,&lt;br>
+            Rakaiswa nerudo rwaMwaru rukuru,&lt;br>
+            (Chitsidzo) Kuponesa nyika,&lt;br>
+            (Zvisikwa zvese) Chitsidzo kunesu,&lt;br>
+            Ndiyani angatsanangure rudo\n rwaMwari.&lt;br>
+            &lt;br>
+            &lt;b>3.&lt;/b>&lt;br> Mabvi ose pfugama , kutonga kutsvene,&lt;br>
+            Rudo rwenyu rukuru, mutsa waMwari,&lt;br>
+            (Rumbidzaa) Mabasa makuru,&lt;br>
+            (iJehova) Jehova mutsvene,&lt;br>
+            Ndiyani anganamatwe kunze kwenyuwo&lt;br>
+            Mwari.&lt;br> </item>
+
+        <item> &lt;br>&lt;b>1.&lt;/b>&lt;br>
+        Jesus is the bread that feeds the\n
+        nations&lt;br>
+        Jesus Christ is the way&lt;br>
+        (Is the way x3 bass)Thy word is a lamp&lt;br>
+        unto my feet And a light unto my path&lt;br>
+        For the bread is he which cometh down&lt;br>
+        from heaven above&lt;br>
+        And he gives life unto all the world&lt;br>
+        All the world (God so loved the)&lt;br>
+        All the world (world that He gave Jesus)&lt;br>
+        All the world (Christ) who believes will&lt;br>
+        be saved&lt;br>
+        &lt;br>
+        &lt;b>2.&lt;/b>&lt;br>
+        We are vessels which are consencrated&lt;br>
+        for the work of the Lord &lt;br>
+        (Of theLord x3 bass) To spread God\'s&lt;br>
+        word the lamp unto the feet &lt;br>
+        And the great light in the path &lt;br>
+        There\'s oneLord and one faith only one&lt;br>
+        source&lt;br>
+        And there is no candlestick nor church&lt;br>
+        lights on its self &lt;br>
+        On its self(The lord God Al) &lt;br>
+        On its self(Mighty and the) &lt;br>
+        On its self (Lamb of God) are the light&lt;br>
+        of the world &lt;br>
+        &lt;br>
+        &lt;b>3.&lt;/b>&lt;br>
+        Not by strength but by the spirit of God &lt;br>
+        Will this work be fulfilled &lt;br>
+        (Be fulfilled x3 bass) The word will be\n spread to all the nations That the Lord&lt;br>
+        God will be sight &lt;br>
+        Go ye therefore to all nations, kindred,&lt;br>
+        tongue and race &lt;br>
+        Preach the word of salvation to the\n world &lt;br>
+        To the world (Preach the word of) &lt;br>
+        To the world (salvation to) &lt;br>
+        To the world(the world) &lt;br>
+        Then the Lord God shall be sight &lt;br>
+        </item>
+
+        <item>
+            &lt;br>
+            &lt;b>1.&lt;/b>&lt;br>
+            Let them make me a sanctuary&lt;br>
+            That I may dwell among my people&lt;br>
+            In the likeness of that in heaven&lt;br>
+            Where Jesus Christ is standing as the\n High Priest&lt;br>
+            &lt;br>
+            &lt;b>&lt;u>CHORUS&lt;/u>&lt;/b>
+            &lt;br>
+            &lt;i>For unto two(thousand)(and) three\n hundred days&lt;br>
+            Shall the sanctuary be cleansed of all\n sins&lt;br>
+            Then the high priest, creator and\n redeemer&lt;br>
+            Shall enter the most holy place&lt;/i>&lt;br>
+            &lt;br>
+            &lt;b>2.&lt;/b>&lt;br>
+            In the courtyard there was an alter&lt;br>
+            And the brazen lavar of water&lt;br>
+            Christ is the sacrifice for all sins&lt;br>
+            He\'ll sanctify with the word and the\n spirit&lt;br>
+            &lt;br>
+            &lt;b>3.&lt;/b>&lt;br>
+            In the Holy place was the table&lt;br>
+            Of the shew bread placed to the north\n side&lt;br>
+            And the lamp stand the alter of incense&lt;br>
+            Christ is the bread, the light let\'s raise\n our prayers&lt;br>
+            &lt;br>
+            &lt;b>4.&lt;/b>&lt;br>
+            The most holy place had the golden&lt;br>
+            Ark of covenant with the commandments&lt;br>
+            Pot of manna Aaron\'s rod that budded&lt;br>
+            Upholding righteousness, temperance\n and judgement&lt;br>
+        </item>
+
+        <item>
+            &lt;br>
+            &lt;b>1.&lt;/b>&lt;br> I\'ve heard them sing he paid the price\n and Jesus bore it all&lt;br>
+            I\'ve heard them sing i\'m coming home\n and hear the Master\'s call&lt;br>
+            I\'ve heard them sing the modern songs\n and sings of long ago&lt;br>
+            But amazing grace how sweet the\n sound is the sweetest song i know&lt;br>
+            &lt;br>
+            &lt;b>&lt;u>CHORUS&lt;/u>&lt;/b>
+            &lt;br>
+            &lt;i>Amazing grace how sweet the sound&lt;br>
+            Oh how sweet is the sound&lt;br>
+            Sweeter song, sweeter song&lt;br>
+            In this life could be found&lt;br>
+            I\'ve heard a fount where sinners plunged\n washed as white&lt;br>
+            White as snow&lt;br>
+            But amazing grace how sweet the sound is the\n sweetest song i know&lt;/i>&lt;br>
+            &lt;br>
+            &lt;b>2.&lt;/b>&lt;br>I\'ve heard them sing he paid the price\n and just a little while&lt;br>
+            I\'ve heard them sing beyond the clouds\n and give the world a smile&lt;br>
+            I\'ve heard them sing there is a fount that\n washes white as snow&lt;br>
+            But amazing grace how sweet the sound is the\n sweetest song i know&lt;br>
+            &lt;br>
+            &lt;b>3.&lt;/b>&lt;br> It was the song my mother sang in\n sweet and humble voice &lt;i>(sop)&lt;/i>&lt;br>
+            Like music from the world above it\n made my soul rejoice&lt;i>(sop and alto)&lt;/i>&lt;br>
+            Its soothing words and melody like\n rippling waters flow&lt;i>(sop, alto,turner)&lt;/i>&lt;br>
+            But amazing grace how sweet the\n sound is the sweetest song i know&lt;br>
+        </item>
+
+        <item>
+            &lt;br>
+            &lt;b>1.&lt;/b>&lt;br>
+            I saw an angel come down from heaven\n
+            above&lt;br>
+            Having great power His glory lightened\n
+            the world&lt;br>
+            Mightily he cried with a strong voice\n
+            saying&lt;br>
+            Babylon the great is fallen is fallen &lt;br>
+            &lt;br>
+            &lt;b>&lt;u>CHORUS&lt;/u>&lt;/b>
+            &lt;br>
+            &lt;i>
+            The earth is lightened with His glory x2&lt;br>
+            A message of love from heaven to\n
+            perishing world&lt;br>
+            Come out of her my people x2&lt;br>
+            Oh remnant rise and stand for the Lord &lt;/i>&lt;br>
+            &lt;br>
+            &lt;b>2.&lt;/b>&lt;br>
+            It is the loud cry God\'s last call to the\n
+            world &lt;br>
+            Second angel\'s message repeated and\n
+            magnified&lt;br>
+            With corruptions which entered in the\n
+            churches&lt;br>
+            All the false doctrines since 1844 &lt;br>
+            &lt;br>
+            &lt;b>3.&lt;/b>&lt;br>
+            Some will choose Jesus the\n commandments they\'ll keep&lt;br>
+            Patiently waiting the faith of Jesus they\n
+            have&lt;br>
+            A rich reward ,a robe and a golden\n crown&lt;br>
+            Jesus will give unto all His faithful\n
+            friends &lt;br>
+        </item>
+        <item>
+            &lt;br>
+            &lt;b>1.&lt;/b>&lt;br>
+            Apo tofamba (Hummmmm), &lt;br>
+            Namuponesi(hummmm), &lt;br>
+            Toimbira(humm), &lt;br>
+            Tirimunzira(hummm), &lt;br>
+            Tofamba naye, (awoooo)&lt;br>
+            Tomutewera, (awooo) &lt;br>
+            Murwendo rwedu(awooo), &lt;br>
+            Toenda kumusha(awooo);&lt;br>
+            &lt;br>
+            &lt;b>&lt;u>CHORUS&lt;/u>&lt;/b>
+            &lt;br>
+            &lt;i>
+            (Hakuna) Hakuna urombo, &lt;br>
+            (Hunoti) Hunotitambudza, &lt;br>
+            (Hakuna)Kana kupokana, &lt;br>
+            (Hakuna)Masodzi nekutya, &lt;br>
+            (Mitoro yedu) (ohhh) anotakura, &lt;br>
+            (Dakara tisvikeko kumusha) Tasvika&lt;br>
+            kumusha, &lt;br>
+            (Hakuna) kurwara nekufa, &lt;br>
+            (Hakuna) Kana nenhamozve, &lt;br>
+            (Toimba)Mbiri halleluya X2, &lt;br>
+            (Halelluya) Alleluya amen&lt;br>
+            (Allelu alleluya), &lt;br>
+            (Halleluya)Nekusingaperi.
+            &lt;/i>
+            &lt;br>
+        </item>
+
+        <item>
+            &lt;br>
+            &lt;b>1.&lt;/b>&lt;br>
+            Fairest Lord Jesus ruler of all nations &lt;br>
+            Art thou of God andman the son &lt;br>
+            Thee will I cherish, theewill i honour &lt;br>
+            Thou art my glory, joy and crown &lt;br>
+            &lt;br>
+            &lt;b>2.&lt;/b>&lt;br>
+            Fair are all creeping things ,fairer still all\n mankind &lt;br>
+            Fairest the hands of Jesus Christ &lt;br>
+            Wounded to save us, bruised just to give\n us life &lt;br>
+            What love? By His stripes we are healed &lt;br>
+            &lt;br>
+            &lt;b>3.&lt;/b>&lt;br>
+            Fair are the seraphims, fairer still the\n cherubims &lt;br>
+            Fairest theHoly son of God &lt;br>
+            Thy throne\'s forever, a scepter of\n righteous &lt;br>
+            The scepter of thy kingdom &lt;br>
+        </item>
+
+        <item>
+            &lt;br>
+            &lt;b>1.&lt;/b>&lt;br>
+            Are you giving to the world a\n smile(sunny smile-&lt;br>
+            Helping lessen someone\'s dreary\n mile(dreary mile)&lt;br>
+            Do you greet theworld with song&lt;br>
+            As through life you pass along&lt;br>
+            Cheering those whom you may meet\n along life\'s way&lt;br>
+            &lt;br>
+            &lt;b>&lt;u>CHORUS&lt;/u>&lt;/b>
+            &lt;br>
+            &lt;i>
+            Give the world yes a beautiful smile&lt;br>
+            Helping someone on life\'s dreary way&lt;br>
+            Paths of sin, bring them in&lt;br>
+            To his fold yes forever to stay&lt;br>
+            (Help to cheer the lone and sad)&lt;br>
+            Help cheer the sad, the lonely and sad&lt;br>
+            (Help to make some pilgrim glad)&lt;br>
+            Help make him gladmake somebody\n glad&lt;br>
+            (Let your) Life so be that all the world\n may see the joy of serving Jesus with\n a smile
+            (Bright sunny smile)
+            &lt;/i>
+            &lt;br>
+            &lt;br>
+            &lt;b>2.&lt;/b>&lt;br>
+            You may be a shinning light today&lt;br>(yes today)&lt;br>
+            Pointing souls to heaven\'s glory way (glory way)&lt;br>
+            If you let your light so shine&lt;br>
+            That they see the path divine&lt;br>
+            And you wear a pleasant smile along life\'s way&lt;br>
+        </item>
+
+        <item>
+            &lt;br>
+            &lt;b>1.&lt;/b>&lt;br>
+            God is love, his mature his law is love&lt;br>
+            It ever has been it ever will be&lt;br>
+            God\'s charecter is love&lt;br>
+            &lt;br>
+            &lt;b>&lt;u>CHORUS&lt;/u>&lt;/b>
+            &lt;br>
+            &lt;i>
+            The ten commandments are love&lt;br>
+            The first four show the love of God and\n man&lt;br>
+            And six live of you and me&lt;br>
+            Praise the Lord for His love
+            &lt;/i>
+            &lt;br>
+            &lt;br>
+            &lt;b>2.&lt;/b>&lt;br>
+            Sin is not love, is transgression of God\'s\n law&lt;br>
+            T\'was sin which made Christ to hang on\n the cross&lt;br>
+            Jesus died for our sins&lt;br>
+            &lt;br>
+            &lt;b>3.&lt;/b>&lt;br>
+            Some thought to change the law of God\n which is love&lt;br>
+            I\'wld rather obey God thanmortal man&lt;br>
+            I delight in the law&lt;br>
+            &lt;br>
+            &lt;b>4.&lt;/b>&lt;br>
+            God\'s law will stand till hea\'vn and earth\n pass away&lt;br>
+            Not one jot will pass away from the law&lt;br>
+            Till all shall be fulfilled&lt;br>
+        </item>
+
+        <item>
+            &lt;br>
+            &lt;b>1.&lt;/b>&lt;br>
+            God is not man that He should lie&lt;br>
+            Nor son of man that He should repent&lt;br>
+            As he said and he\'ll not do&lt;br>
+            God is Lord, Lord of Lords&lt;br>
+            &lt;br>
+            &lt;b>&lt;u>CHORUS&lt;/u>&lt;/b>
+            &lt;br>
+            &lt;i>
+            His promises are true(are true)&lt;br>
+            He\'ll surely fulfill(fulfill)&lt;br>
+            His love is true&lt;br>
+            He sent His only son(his son)&lt;br>
+            His coming is true&lt;br>
+            He\'ll surely return (return)&lt;br>
+            And judgement is true(is true)&lt;br>
+            Ohh who can escape(oh who can\n escape)
+            &lt;/i>
+            &lt;br>
+            &lt;br>
+            &lt;b>2.&lt;/b>&lt;br>
+            God is not man his love is great&lt;br>
+            Stood to face death for sin bearing man&lt;br>
+            If we yield our lives to him&lt;br>
+            Power\'oer sin he\'ll provide&lt;br>
+            &lt;br>
+            &lt;b>3.&lt;/b>&lt;br>
+            Jesus has promises he\'ll return&lt;br>
+            And a reward to all men h\'ll give&lt;br>
+            Righteous judge eternal king&lt;br>
+            Will he find faith on earth&lt;br>
+        </item>
+
+        <item>
+            &lt;br>
+            &lt;b>1.&lt;/b>&lt;br>
+            Ngogqoka umqhele nxa ng\’fik ekhaya&lt;br>
+            Ngobona umsindisi nxa ng\’fik ekhaya&lt;br>
+            Ng;gqoke ezimhlophe&lt;br>
+            Ng\’hlabelel ingoma&lt;br>
+            Yenkos eyang\’hlenga ng\’fik ekhaya&lt;br>
+            &lt;br>
+            &lt;b>&lt;u>CHORUS&lt;/u>&lt;/b>
+            &lt;br>
+            &lt;i>
+            Ngif\’k ekhaya&lt;br>
+            Ngif\’k ekhaya inhlupo zodlula&lt;br>
+            Nxa ngif\’k ekhaya&lt;br>
+            &lt;/i>
+            &lt;br>
+            &lt;b>2.&lt;/b>&lt;br>
+            Ndichapfeka chiremba kumushayo&lt;br>
+            Ndichatura mutoro kumushayo&lt;br>
+            Pfeke nguwo chena, ndichaimba rwiwo&lt;br>
+            Kwa Tenzi namambo kumushayo&lt;br>
+            &lt;br>
+            &lt;b>&lt;u>CHORUS&lt;/u>&lt;/b>
+            &lt;br>
+            &lt;i>
+            Kumushayo , kumushayo , kumushayo&lt;br>
+            Hurombo huchapera kumushayo x2
+            &lt;/i>
+            &lt;br>
+            &lt;br>
+            &lt;b>3.&lt;/b>&lt;br>
+            Umnyama wohlula nxa ngi\’fik ekhaya&lt;br>
+            Ngobon\’ukhukhanya nxa ngif\’ke ekhaya&lt;br>
+            Khanya kwezulwini, khanyasa ihlela&lt;br>
+            Khong\’ikhokhela nxa ngif\’kh ekhaya&lt;br>
+            &lt;br>
+            &lt;b>&lt;u>CHORUS&lt;/u>&lt;/b>
+            &lt;br>
+            &lt;i>
+            Ngif\’k ekhaya&lt;br>
+            Ngif\’k ekhaya inhlupo zodlula&lt;br>
+            Nxa ngif\’k ekhaya x2
+            &lt;/i>
+            &lt;br>
+            &lt;br>
+            &lt;b>4.&lt;/b>&lt;br>
+            Toona Muponesi kumushayo&lt;br>
+            Toimba nengirozi kumushayo&lt;br>
+            Kupenya kwedenga kwopangidza nzira&lt;br>
+            Kwonditungamira kumushayo&lt;br>
+            &lt;br>
+            &lt;b>&lt;u>CHORUS&lt;/u>&lt;/b>
+            &lt;br>
+            &lt;i>
+            Kumushayo , kumushayo , kumushayo&lt;br>
+            Hurombo huchapera kumushayo x2
+            &lt;/i>
+            &lt;br>
+        </item>
+
+        <item>
+            &lt;br>
+            &lt;b>1.&lt;/b>&lt;br>
+            There is no sermon there is no story&lt;br>
+            Ever preached lived ever told&lt;br>
+            Greater than the cross where Jesus&lt;br>
+            Laid His life for you and me&lt;br>
+            &lt;br>
+            &lt;b>&lt;u>CHORUS&lt;/u>&lt;/b>
+            &lt;br>
+            &lt;i>
+            When i look at calvary\'s cross where&lt;br>
+            Jesus died i melt with wonder&lt;br>
+            All the glory of this world fades&lt;br>
+            As Christ\' s love reigns in my heart
+            &lt;/i>
+            &lt;br>
+            &lt;br>
+            &lt;b>2.&lt;/b>&lt;br>
+            Wounded for all our transgressions&lt;br>
+            Bruised for our iniquities&lt;br>
+            The chastisement of our peace was&lt;br>
+            \'Pon Him by his stripes we are healed&lt;br>
+            &lt;br>
+            &lt;b>3.&lt;/b>&lt;br>
+            Greater love hath no man than this&lt;br>
+            That a man laid down his life&lt;br>
+            For his friends what wondrous love\n Christ&lt;br>
+            Is my song and salvation&lt;br>
+        </item>
+        <item>
+            &lt;br>(Jehova) Ndiye Tenzi mufudzi wangu
+(Idiko) Handina chiro chandinoshaya
+(Anondi) Radzika (pafuro) Pafuro
+(Raka) Pfawa (pfawi) sisaa &lt;br>&lt;br>
+
+Ndotungamirwa pamvurayo yakaterama
+Jehova iye muchengeti
+Wemweya hunde mweya wandu
+Diko ndichafambamo mumikana
+Yemvuri werufu handichazombotyi &lt;br>&lt;br>
+
+Tsvimbo yenyu neuyo mudonzvo
+(Yo (tsvimbo yenyu*2) (nemudonzvo*2)
+Zvinondingwarira
+(Zvinondingwarira zvese zvinondingwarira zvese)
+Jehova ndiye mufudzi wangu
+(Tenzi imi Jehova muri mufudzi wangu chose ndiri hwayi yenyu ini chokwadi) &lt;br>&lt;br>
+
+(Magadzira tafura)
+Pamberi pangu ini mazora mafuta
+Mukombe wangu unorasira
+(Runako nadzo tsitsi)
+Zvose ipfuma yangu zvichanditewera mazuva angu esee &lt;br>&lt;br>
+
+(Diko ndichagara)
+Ndichagara munedengaro dzvene dengaro musha mutsvene
+(Ndichagara munedenga dzvene denga musha wangu mitsvene)&lt;br>&lt;br>
+
+Ndichagara, denga dzvene, pemberera, svika denga
+(Ndicha ndichagara munedenga dzvene ndicha zopembera ndasvika kudenga)
+Nengirozi dziriyoo , mazambara ariyo
+(Nengirozi , mazambara)
+(Ngirozi dziriyo nawo mazambara)
+Ndichazoimba ndwiyo ndasvika denga dzvene
+(Imba ndwiyo, svika denga)
+(Ndichaimba ndwiyo ndasvika kudenga)
+Pano handiwo musha ndichazosvika denga
+(Handimusha, svika denga)
+(Pano handimusha, ndichasvika)
+Uko kunerugare. &lt;br>&lt;br>
+        </item>
+
+        <item>
+            &lt;br>
+            &lt;b>1.&lt;/b>&lt;br>
+            Last night when I was lonely I looked at the sky,&lt;br>
+The starts looked like notes in the air,&lt;br>
+Like a mighty piece of music penned by God\’s own hand,&lt;br>
+Written for a choir way up there.
+&lt;br>
+            &lt;br>
+            &lt;b>&lt;u>CHORUS&lt;/u>&lt;/b>
+            &lt;br>
+            &lt;i>
+I heard the angels sing glory alleluia,&lt;br>
+A mighty chorus way up high,&lt;br>
+I heard the angels sing praise the name of Jesus,&lt;br>
+Singing in God\’s choir in the sky,&lt;br>
+I heard a thousand trumpets sounding out his glory,&lt;br>
+Telling the story how he came to earth to die,&lt;br>
+I heard a million voices praise the name of Jesus,&lt;br>
+Singing in God\’s choir in the sky.
+    &lt;/i>
+
+&lt;br>
+            &lt;br>
+            &lt;b>2.&lt;/b>&lt;br> I heard a glorious song coming out of heaven,&lt;br>
+The sweetest music ever heard,&lt;br>
+I heard a mighty song sung by all the angels,&lt;br>
+My soul thrilled at every loving word.&lt;br>
+
+&lt;br>
+            &lt;br>
+            &lt;b>3.&lt;/b>&lt;br> I fell down on my knees when the chorus ended,&lt;br>
+They shouted out a glad Amen,&lt;br>
+I fell down on my kneels. Praise that when in heaven,&lt;br>
+I\’d hear that choir once again.&lt;br>
+
+        </item>
+
+        <item>
+            &lt;br>
+            &lt;b>1.&lt;/b>&lt;br>
+        Lord in us awake,&lt;br>
+        A revival yes,&lt;br>
+        Of premitive Godliness,&lt;br>
+        Lord how much we long,&lt;br>
+        For those paths of old,&lt;br>
+        That religion old and pure.&lt;br>
+&lt;br>
+            &lt;b>2.&lt;/b>&lt;br>
+        Lord in us awake,&lt;br>
+        That old fashioned faith,&lt;br>
+        Faith like Abraham\'s,&lt;br>
+        Strong and true,&lt;br>
+        Lord in us awake,&lt;br>
+        That old faithfulness,&lt;br>
+        Returning tithes faithfully.&lt;br>
+&lt;br>
+            &lt;b>3.&lt;/b>&lt;br>
+        May we live each day,&lt;br>
+        In faith alone,&lt;br>
+        Ever trusting in you Lord,&lt;br>
+        For our bread and strength,&lt;br>
+        For our salvation,&lt;br>
+        As we lift our hearts in praise.&lt;br>
+        </item>
+
+<item>
+    &lt;br>
+            &lt;b>1.&lt;/b>&lt;br>
+    Semazuva’yo aNoah,&lt;br>
+Vanhu vofara muchivi,&lt;br>
+Mvura zhinji yakauya,&lt;br>
+Vashoma vakaponeswa.
+
+&lt;br>
+            &lt;br>
+            &lt;b>&lt;u>CHORUS&lt;/u>&lt;/b>
+            &lt;br>
+            &lt;i>
+M’bairo wezvivi rufu,&lt;br>
+Chipo chaMwari upenyu,&lt;br>
+    soko raShe ndiwo mwenje, &lt;br>
+Muka mwenje itungidzwe.
+    &lt;/i>
+
+    &lt;br>
+&lt;br>
+            &lt;b>2.&lt;/b>&lt;br>
+    Zvivi ndiko kudarika,&lt;br>
+Murairo waJehova,&lt;br>
+Jesu akakunda chivi,&lt;br>
+Nesu tokunda maari.
+    &lt;br>
+
+&lt;br>
+            &lt;b>3.&lt;/b>&lt;br>
+    Hatinyari n\’Evhangeri,&lt;br>
+Muchinjiko wosimbisa,&lt;br>
+Muvambi nemukwanisi,&lt;br>
+Wekutanda kwedu ndiShe.
+    &lt;br>
+
+&lt;br>
+            &lt;b>4.&lt;/b>&lt;br>
+    Mutemo waMwari rudo,&lt;br>
+Joko rake roreruka,&lt;br>
+Tisaputse murairo,&lt;br>
+Tobatira pakutenda.&lt;br>
+</item>
+
+        <item>
+            &lt;br>
+            &lt;b>1.&lt;/b>&lt;br>
+            The greatest want of the world is the want,&lt;br>
+Of men, men who will not be bought or sold,&lt;br>
+Men who in their inmost souls are true and honest,&lt;br>
+Men who do not fear to call sin by its right name,&lt;br>
+Men whose conscience is as true,&lt;br>
+To duty as the needle to the pole,&lt;br>
+Men who will stand for the right,&lt;br>
+Stand for the right though the heavens fall.
+&lt;br>
+            &lt;br>
+            &lt;b>&lt;u>CHORUS&lt;/u>&lt;/b>
+            &lt;br>
+            &lt;i>
+Here ohh Lord i stand for thee,&lt;br>
+I submit my will to your own,&lt;br>
+As the clay in the potter\'s hands,&lt;br>
+Mold me shape me Lord.
+&lt;/i>
+
+    &lt;br>
+&lt;br>
+            &lt;b>2.&lt;/b>&lt;br>
+All angels long to look into these things,&lt;br>
+When fallen men stands perfect, holy, pure,&lt;br>
+The law of God reflected in each person\'s heart,&lt;br>
+With no trace of sin but its Jesus in yhe heart,&lt;br>
+Jesus Christ is coming soon,&lt;br>
+With all the angels what a glorious day,&lt;br>
+With each charecter as true,&lt;br>
+A perfect nation eternal be.&lt;br>
+        </item>
+
+        <item>
+           &lt;br>
+            &lt;b>1.&lt;/b>&lt;br>
+If we knew the price of a single soul,&lt;br>
+Not worth a mansion, silver\’o gold,&lt;br>
+But worth the blood and life of God,&lt;br>
+We’ll rise and go to spread the Word.
+&lt;br>
+            &lt;br>
+            &lt;b>&lt;u>CHORUS&lt;/u>&lt;/b>
+            &lt;br>
+            &lt;i>
+It might be day of night we\’ll work,&lt;br>
+Even the valley\’o hills we\’ll tread,&lt;br>
+Here we are Lord send us today,&lt;br>
+Between the plough and alter we stand!
+&lt;/i>
+&lt;br>
+&lt;br>
+&lt;b>2.&lt;/b>&lt;br>
+When the way gets dark, the lamp is thy word,&lt;br>
+Christ is the vine and we the branch,&lt;br>
+Ev\’n in the tempest we will shout,&lt;br>
+\‘The love of Christ constraineth us!\’
+&lt;br>
+&lt;br>
+&lt;b>3.&lt;/b>&lt;br>
+What a solemn call to the world we have,&lt;br>
+Three angels\’ message to proclaim,&lt;br>
+The righteousness of Christ our Lord,&lt;br>
+It’s Christ within, hope of glory.
+&lt;br>
+&lt;br>
+&lt;b>4.&lt;/b>&lt;br>
+And though some through death in the graves will rest,&lt;br>
+Hope is in Jesus\’ coming back,&lt;br>
+The graves will open and we\’ll see,&lt;br>
+The souls redeemed from sin and death.&lt;br>
+        </item>
+
+        <item>
+            &lt;br>
+            Magnify, glory, ex-tol and ex-alt the Lord,&lt;br>
+Magnify, glory His holy name forever more,&lt;br>
+Magnify, glorify, extol and exalt the Lord, exalt&lt;br>
+and glorify, magnify His name forever more.&lt;br>
+&lt;br>
+Our feet shall stand within thy gates O Jerusalem!&lt;br>
+We will re-joice, we will re-joice, re-joice in thy salvation,&lt;br>
+Our feet(shall stand) shall stand with-in thy gates,&lt;br>
+O Jerusalem! Shall stand within thy gates, Jerusalem!&lt;br>
+&lt;br>
+Magnify, glorify, extol and exalt the Lord,&lt;br>
+Magnify, glorify, His holy name forever more,&lt;br>
+Magnify glorify extol and exalt the Lord, exalt and glorify,&lt;br>
+Magnify His name forever more.&lt;br>
+&lt;br>
+Extol Him that rideth upon the heav\’ns, by His name, God,&lt;br>
+Extol Him that rideth upon the heav\’ns, by His name, God,&lt;br>
+and rejoice, and rejoice before Him, and rejoice before Him,&lt;br>
+and rejoice before Him,&lt;br>
+&lt;br>
+We will rejoice in Thy salvation,&lt;br>
+and in Thy name we will lift up our banners,&lt;br>
+and come again with singing unto Zion,&lt;br>
+and obtain gladness and joy.&lt;br>
+
+Magnify, glorify, extol and exalt the Lord,&lt;br>
+Magnify, glorify His Holy name forever more,&lt;br>
+Magnify, glorify, extol and exalt the Lord,&lt;br>
+Glorify, magnify His name forever more.&lt;br>
+&lt;br>
+Halelujah! Amen, Halelujah! Amen,&lt;br>
+Halelujah, Halelujah, Amen.&lt;br>
+
+        </item>
+    </string-array>
+</resources>

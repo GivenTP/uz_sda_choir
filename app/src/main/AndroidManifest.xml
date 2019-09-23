@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools.android="http://schemas.android.com/tools"
+    package="com.gtptechnologies.uzsdachoir"
+    >
+
+    <uses-permission android:name="android.permission.CALL_PHONE"
+        />
+
+    <application
+        android:allowBackup="true"
+        android:name="android.support.multidex.MultiDexApplication"
+        android:icon="@mipmap/uzsdachoir4"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.gtptechnologies.uzsdachoir.MainActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/PreferenceScreen">
+        </activity>
+        <activity
+            android:name=".Dialpad"
+            android:label="Hymn Number"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustPan"
+
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog.Alert" >
+
+        </activity>
+        <activity
+            android:name=".Donate"
+            android:label="Donate"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustPan"
+
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog.Alert" >
+
+        </activity>
+        <activity
+            android:name=".Savebuttons"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustPan"
+            android:label=" "
+            android:theme="@style/Theme.AppCompat.DayNight.Dialog.Alert" >
+
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/about_name" >
+        </activity>
+        <activity
+            android:name=".Edit"
+            android:label="Edit Hymn"
+            android:theme="@style/PreferenceScreen">
+        </activity>
+
+    </application>
+
+</manifest>
