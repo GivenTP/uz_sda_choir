@@ -15,18 +15,12 @@ import android.widget.EditText;
 
 public class Donate extends AppCompatActivity {
 
-//    ActionBar actionBar;
     EditText editText;
     Button button;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.donate);
-
-//        actionBar = getSupportActionBar();
-//        //ActionBar actionBar = getActionBar();
-//        actionBar.setDisplayHomeAsUpEnabled(true);
-//        actionBar.setHomeButtonEnabled(true);
 
         WindowManager.LayoutParams params = getWindow().getAttributes();
         params.x = -50;
@@ -37,11 +31,6 @@ public class Donate extends AppCompatActivity {
 
         editText = (EditText) findViewById(R.id.donedit);
         button = (Button) findViewById(R.id.donbutton);
-
-//        this.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-//        this.getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_cancel_black_36dp);
-
-
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,8 +45,6 @@ public class Donate extends AppCompatActivity {
             }
 
         });
-
-
     }
 
     private void dailNumber(int amt) {

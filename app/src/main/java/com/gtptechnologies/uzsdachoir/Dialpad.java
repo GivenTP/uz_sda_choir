@@ -1,36 +1,23 @@
 package com.gtptechnologies.uzsdachoir;
 
-import android.app.Fragment;
 import android.content.Intent;
 import android.content.res.Resources;
-import android.inputmethodservice.Keyboard;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.view.KeyEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 
-import java.security.Key;
-import java.util.ArrayList;
-import java.util.List;
-
 public class Dialpad extends AppCompatActivity {
-
-    List<RowItem> rowItems;
-    String[] hymn_name;
-    ViewPager mViewPager;
 
     Button button0, button1, button2, button3, button4, button5, button6,
             button7, button8, button9, buttonC, buttonEqual;
     EditText crunchifyEditText;
 
-    float mValueOne, mValueTwo;
+    float mValueTwo;
 
-    boolean crunchifyAddition, mSubtract, crunchifyMultiplication, crunchifyDivision;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -57,19 +44,9 @@ public class Dialpad extends AppCompatActivity {
             crunchifyEditText.setTextIsSelectable(true);
         }
 
-        //crunchifyEditText.setText("0");
-        //crunchifyEditText.append("");
-        //crunchifyEditText.setSelection(crunchifyEditText.getText().length());
-        //crunchifyEditText.setText('a');
-        //crunchifyEditText.setPaintFlags(0);
-
-
-
         WindowManager.LayoutParams params = getWindow().getAttributes();
-        //params.x = -50;
         params.height = WindowManager.LayoutParams.WRAP_CONTENT;
         params.width = WindowManager.LayoutParams.WRAP_CONTENT;
-        //params.y = -50;
 
         this.getWindow().setAttributes(params);
 
@@ -153,14 +130,10 @@ public class Dialpad extends AppCompatActivity {
                     mValueTwo = Integer.parseInt(crunchifyEditText.getText() + "");
                 }else {
                     crunchifyEditText.setText("0");
-                    //crunchifyEditText.append(Integer.toString(hymnnames.length));
                 }
 
-
-                CharSequence[] hymnWords;
                 String[] hymnnames;
                 Resources resources = getResources();
-                hymnWords = resources.getTextArray(R.array.hymnWords);
                 hymnnames = resources.getStringArray(R.array.hymns);
 
 
@@ -175,116 +148,9 @@ public class Dialpad extends AppCompatActivity {
                 }
                 else
                     {
-                        //crunchifyEditText.setSelection(crunchifyEditText.getText().length());
                         crunchifyEditText.setText("");
                         crunchifyEditText.append(Integer.toString(hymnnames.length));
-                        //crunchifyEditText.append("2");
                     }
-
-
-
-                /*if(mValueTwo==1){
-                    Intent intent = new Intent(Dialpad.this, MainActivity.class);
-                    intent.putExtra("hymnName","1. Gwayana");
-                    startActivity(intent);
-                }
-
-                else if(mValueTwo==2){
-                    Intent intent = new Intent(Dialpad.this, MainActivity.class);
-                    intent.putExtra("hymnName","2. Jesus Is The Bread");
-                    startActivity(intent);
-                }
-
-                else if(mValueTwo==3){
-                    Intent intent = new Intent(Dialpad.this, MainActivity.class);
-                    intent.putExtra("hymnName","3. Sanctuary");
-                    startActivity(intent);
-                }
-
-                else if(mValueTwo==4){
-                    Intent intent = new Intent(Dialpad.this, MainActivity.class);
-                    intent.putExtra("hymnName","4. Sweetest Song");
-                    startActivity(intent);
-                }
-
-                else if(mValueTwo==5){
-                    Intent intent = new Intent(Dialpad.this, MainActivity.class);
-                    intent.putExtra("hymnName","5. The Loud Cry");
-                    startActivity(intent);
-                }
-
-                else if(mValueTwo==6){
-                    Intent intent = new Intent(Dialpad.this, MainActivity.class);
-                    intent.putExtra("hymnName","6. Apo Tofamba");
-                    startActivity(intent);
-                }
-
-                else if(mValueTwo==7){
-                    Intent intent = new Intent(Dialpad.this, MainActivity.class);
-                    intent.putExtra("hymnName","7. Fairest");
-                    startActivity(intent);
-                }
-
-                else if(mValueTwo==8){
-                    Intent intent = new Intent(Dialpad.this, MainActivity.class);
-                    intent.putExtra("hymnName","8. Sunny Smile");
-                    startActivity(intent);
-                }
-
-                else if(mValueTwo==9){
-                    Intent intent = new Intent(Dialpad.this, MainActivity.class);
-                    intent.putExtra("hymnName","9. God is love");
-                    startActivity(intent);
-                }
-
-                else if(mValueTwo==10){
-                    Intent intent = new Intent(Dialpad.this, MainActivity.class);
-                    intent.putExtra("hymnName","10. God is not man");
-                    startActivity(intent);
-                }
-
-                else if(mValueTwo==11){
-                    Intent intent = new Intent(Dialpad.this, MainActivity.class);
-                    intent.putExtra("hymnName","11. Ngif’k ekhaya");
-                    startActivity(intent);
-                }
-
-                else if(mValueTwo==12){
-                    Intent intent = new Intent(Dialpad.this, MainActivity.class);
-                    intent.putExtra("hymnName","12. There is no sermon");
-                    startActivity(intent);
-                }
-
-                else if(mValueTwo>12||mValueTwo<=0){
-                    //crunchifyEditText.setSelection(crunchifyEditText.getText().length());
-                    crunchifyEditText.setText("");
-                    crunchifyEditText.append("1");
-                    crunchifyEditText.append("2");
-                }
-
-                else if(crunchifyEditText.getText().equals(null)){
-                    crunchifyEditText.setText("");
-                }*/
-
-                /*if (crunchifyAddition == true) {
-                    crunchifyEditText.setText(mValueOne + mValueTwo + "");
-                    crunchifyAddition = false;
-                }
-
-                if (mSubtract == true) {
-                    crunchifyEditText.setText(mValueOne - mValueTwo + "");
-                    mSubtract = false;
-                }
-
-                if (crunchifyMultiplication == true) {
-                    crunchifyEditText.setText(mValueOne * mValueTwo + "");
-                    crunchifyMultiplication = false;
-                }
-
-                if (crunchifyDivision == true) {
-                    crunchifyEditText.setText(mValueOne / mValueTwo + "");
-                    crunchifyDivision = false;
-                }*/
             }
         });
 
@@ -295,7 +161,6 @@ public class Dialpad extends AppCompatActivity {
                 if (length > 0) {
                     crunchifyEditText.getText().delete(length - 1, length);
                 }
-                //crunchifyEditText.setText("");
             }
         });
 

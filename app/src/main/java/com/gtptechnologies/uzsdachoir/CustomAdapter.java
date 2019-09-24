@@ -73,7 +73,6 @@ public class CustomAdapter extends BaseAdapter{
             RowItem row_pos = rowItems.get(position);
 
             holder.pics.setImageResource(row_pos.getPics_id());
-            //holder.pics.setImageDrawable(ContextCompat.getDrawable(getContext(), row_pos.getPics_id()));
             holder.hymn_name.setText(row_pos.getHymn_name());
             holder.author.setText(row_pos.getAuthor());
         return convertView;

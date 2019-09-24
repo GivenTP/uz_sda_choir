@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/UZSDAChoir2.iml" filepath="$PROJECT_DIR$/UZSDAChoir2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uz_sda_choir.iml" filepath="$PROJECT_DIR$/uz_sda_choir.iml" />
     </modules>
   </component>
 </project>

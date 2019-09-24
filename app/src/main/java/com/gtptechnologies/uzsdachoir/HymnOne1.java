@@ -34,8 +34,6 @@ public class HymnOne1 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.edit, container, false);
 
-        //AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_AUTO);
-
         Bundle bundle = getArguments();
 
         if(bundle != null){
@@ -56,15 +54,11 @@ public class HymnOne1 extends Fragment {
         textView.isInEditMode();
         textView.setActivated(true);
         Edit edit = (Edit)getActivity();
-        //Edit edit = new Edit();
         edit.setmyValues(textView.getText());
-        //Intent intent = new Intent(this,Edit.class);
-        //textView.requestFocus();
         textView.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View v) {
-                //Toast.makeText(MainActivity.this, "I am clicked", Toast.LENGTH_SHORT).show();
                 InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
                 imm.showSoftInput(textView, InputMethodManager.SHOW_IMPLICIT);
             }
@@ -74,62 +68,16 @@ public class HymnOne1 extends Fragment {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 boolean handled = false;
-                //if (actionId == EditorInfo.IME_ACTION_DONE) {
-                    /*if(getId()==R.id.save){
-                        //textView.setText(Html.fromHtml(hymn1key));
-                    }*/
-                    //Edit edit = new Edit();
-                    //edit.onOptionsItemSelected();
                     sendMessage();
-                    //textView.setText(Html.fromHtml(hymn1key));
-                //for(){
-                /*android.app.ActionBar actionBar = getActivity().getActionBar();
-                Resources resources = context.getResources();
-                final String[] hymnnames = resources.getStringArray(R.array.hymns);
-
-                SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
-                SharedPreferences.Editor editor = prefs.edit();
-                JSONArray a = new JSONArray();
-
-                for(int i=0; i< hymnnames.length; i++){
-                if (actionBar.getSubtitle().toString().equalsIgnoreCase(hymnnames[i]))
-                    a.put(textView.getText().toString());
-                }
-                *//*if(!(hymnWords.length==0)){
-                    editor.putString("key", a.toString());
-                }else {
-                    editor.putString("key", null);
-                }*//*
-                editor.commit();*/
                 handled = true;
-                //}
                 return handled;
             }
         });
 
-        //return textView.getText();
-
-        //textView.setImeOptions(EditorInfo.IME_ACTION_DONE);
-
-
-        //InputMethodManager imm = (InputMethodManager) getActivity().getSystemService(Context.INPUT_METHOD_SERVICE);
-        //imm.showSoftInput(textView, InputMethodManager.SHOW_IMPLICIT);
-        //textView.setCursorVisible(false);
-        //textView.setActivated(false);
-
-
-        //textView.setTextAppearance(android.R.style.TextAppearance_Large);
     }
 
-    //public
-
     public void sendMessage(){
-        /*CharSequence[] hymnWords;
-        Resources rs = getResources();
-        getView().findViewById(R.id.save);
-        hymnWords = rs.getTextArray(R.array.hymnWords);*/
-        //Toast.makeText(context, "CB: " + "true",
-              //  Toast.LENGTH_SHORT).show();
+
         EditText textView = (EditText) getView().findViewById(R.id.edittext);
 
         android.app.ActionBar actionBar = getActivity().getActionBar();
@@ -144,11 +92,6 @@ public class HymnOne1 extends Fragment {
             if (actionBar.getSubtitle().toString().equalsIgnoreCase(hymnnames[i]))
                 a.put(textView.getText().toString());
         }
-                /*if(!(hymnWords.length==0)){
-                    editor.putString("key", a.toString());
-                }else {
-                    editor.putString("key", null);
-                }*/
         editor.commit();
     }
 
